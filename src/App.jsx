@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import profilePic from "./assets/profile.jpg"; // 👈 apni photo ko /src/assets/ me profile.jpg naam se daal dena
+// import profilePic from "./assets/profile.jpg"; // 👈 apni photo ko /src/assets/ me profile.jpg naam se daal dena
 
 export default function Portfolio() {
   const [dark, setDark] = useState(false);
@@ -31,11 +31,7 @@ export default function Portfolio() {
           transition={{ duration: 0.5 }}
           className="flex flex-col md:flex-row items-center gap-6"
         >
-          <img
-            src={profilePic}
-            alt="Abhishek Sharma"
-            className="w-32 h-32 rounded-full object-cover shadow-lg"
-          />
+          
           <div>
             <h2 className="text-3xl font-bold mb-2">
               Aspiring Software & Data Engineer
